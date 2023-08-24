@@ -5,4 +5,6 @@ const router = express.Router();
 
 router.get('/', bookController.getBooks);
 
+router.get('/test', bookController.getBooks);
+
 export default router;
