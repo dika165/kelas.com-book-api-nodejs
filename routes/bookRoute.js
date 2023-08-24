@@ -7,4 +7,5 @@ router.get('/', bookController.getBooks);
 
 router.get('/test', bookController.getBooks);
 
+router.post('/test', bookController.getBooks);
 export default router;
